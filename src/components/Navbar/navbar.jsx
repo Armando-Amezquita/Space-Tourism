@@ -12,16 +12,16 @@ export default function Nav () {
             </div>
             <div className={styles.containerRigth}>
                 <Link to='/'  className={styles.link}>
-                    <p className={styles.navegation}> Home </p>
+                    <p className={styles.navegation}> <span className={styles.numberTitle}>00</span> Home </p>
                 </Link>
                 <Link to='/destination' className={styles.link} >
-                    <p className={styles.navegation}> Destionation </p>
+                    <p className={styles.navegation}> <span className={styles.numberTitle}>01</span> Destionation </p>
                 </Link>
                 <Link to='/crew' className={styles.link}>
-                    <p className={styles.navegation}> Crew </p>
+                    <p className={styles.navegation}> <span className={styles.numberTitle}>02</span> Crew </p>
                 </Link>
                 <Link to='/tecnology' className={styles.link}>
-                    <p className={styles.navegation}> Tecnology </p>
+                    <p className={styles.navegation}> <span className={styles.numberTitle}>03</span> Tecnology </p>
                 </Link>
             </div>
         </nav>

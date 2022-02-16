@@ -1,0 +1,88 @@
+.main_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    padding-top: 15rem;
+    background-image: url('../../images/Destination/background-destination-desktop.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.containerLeft{
+    width: 60%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column; 
+    padding-left: 10rem;
+}
+.titleMars{
+    font-size: 2rem;
+    font-weight: 100;
+    color: aliceblue;
+    margin-bottom: 4rem;
+    text-align: start;
+}
+.numberTitle{
+    color: grey;
+    margin-right: 2rem;
+    margin-left: 10rem;
+}
+.imageMars{
+    width: 32rem;
+    height: 32rem;
+    margin-left: 15rem;
+    margin-top: 1.5rem;
+    margin-bottom: 4rem;
+    background-image: url('../../images/Destination/image-mars.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.containerRigth{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column; 
+}
+.title{
+    font-size: 10rem;
+    font-weight: 350;
+    color: white;
+    margin-left: 1rem;
+    margin-bottom: 2.5rem;
+    margin-top: 2rem;
+}
+.principalParrafo{
+    font-size: 2rem;
+    color: lightblue;
+    margin: 0 1rem;
+}
+.principalParrafo:hover{
+    text-decoration: underline;
+}
+.principalParrafoS{
+    font-size: 2rem;
+    color: lightblue;
+}
+.principalParrafoM{
+    font-size: 2rem;
+    margin-left: 1rem;
+    color: lightblue;
+    text-decoration: underline;
+}
+.principalParrafoS:hover{
+    text-decoration: underline;
+}
+.description{
+    font-size: 1.5rem;
+    padding-right: 17rem;
+    text-align: left;
+    color: lightblue;
+    line-height: 3rem;
+}
+
