@@ -1,0 +1,55 @@
+.main_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    padding-top: 15rem;
+    background-color: aqua;
+    background-image: url('./images/background-home-desktop.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.containerLeft{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 40%;
+}
+.containerRigth{
+    width: 40%;
+    padding-left: 20rem;
+}
+.title{
+    font-size: 10rem;
+    font-weight: 350;
+    color: white;
+    margin-left: 1rem;
+    margin-bottom: 2.5rem;
+}
+.principalParrafo{
+    font-size: 2rem;
+    color: white;
+}
+.description{
+    font-size: 1.5rem;
+    padding-right: 14rem;
+    text-align: left;
+    color: white;
+    line-height: 3rem;
+}
+
+.explore{
+    width: 23rem;
+    height: 22rem;
+    font-size: 4rem;
+    border: none;
+    border-radius: 50%;
+    color: white;
+    box-shadow: 0 0 15px #21f3d0; 
+    background: rgba(5,7,12,0.75);
+    cursor: pointer;
+}
