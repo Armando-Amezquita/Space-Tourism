@@ -1,6 +1,6 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import styles from './home.module.css';
-// import styles from './'
 
 
 function Home () {
@@ -17,9 +17,11 @@ function Home () {
                     </p>
                 </div>
                 <div className={styles.containerRigth}>
-                    <button className={styles.explore}>
-                        Explore
-                    </button>
+                    <Link to='/destination'>
+                        <button className={styles.explore}>
+                            Explore
+                        </button>
+                    </Link>
                 </div>
             </main>
         </>

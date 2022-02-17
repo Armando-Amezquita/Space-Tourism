@@ -108,6 +108,7 @@
     border: none;
     cursor: pointer;
     text-decoration: underline;
+    text-shadow: 0 0 10px rgb(3, 175, 233);
 }
 .principalParrafoS:hover{
     text-decoration: underline;
