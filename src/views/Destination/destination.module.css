@@ -31,6 +31,7 @@
     margin-right: 2rem;
     margin-left: 10rem;
 }
+/* -----------> Section Images <------------------- */
 .imageMars{
     width: 32rem;
     height: 32rem;
@@ -42,6 +43,40 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+.imageMoon{
+    width: 32rem;
+    height: 32rem;
+    margin-left: 15rem;
+    margin-top: 1.5rem;
+    margin-bottom: 4rem;
+    background-image: url('../../images/Destination/image-moon.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.imageEuropa{
+    width: 32rem;
+    height: 32rem;
+    margin-left: 15rem;
+    margin-top: 1.5rem;
+    margin-bottom: 4rem;
+    background-image: url('../../images/Destination/image-europa.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.imageTitan{
+    width: 32rem;
+    height: 32rem;
+    margin-left: 15rem;
+    margin-top: 1.5rem;
+    margin-bottom: 4rem;
+    background-image: url('../../images/Destination/image-titan.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .containerRigth{
     width: 40%;
     display: flex;
@@ -60,19 +95,18 @@
 .principalParrafo{
     font-size: 2rem;
     color: lightblue;
-    margin: 0 1rem;
+    margin-right: 2rem;
+    background: transparent;
+    border: none;
+    cursor: pointer;
 }
-.principalParrafo:hover{
-    text-decoration: underline;
-}
-.principalParrafoS{
+.principalParrafoH{
     font-size: 2rem;
     color: lightblue;
-}
-.principalParrafoM{
-    font-size: 2rem;
-    margin-left: 1rem;
-    color: lightblue;
+    margin-right: 2rem;
+    background: transparent;
+    border: none;
+    cursor: pointer;
     text-decoration: underline;
 }
 .principalParrafoS:hover{
@@ -80,9 +114,37 @@
 }
 .description{
     font-size: 1.5rem;
-    padding-right: 17rem;
     text-align: left;
     color: lightblue;
     line-height: 3rem;
+    border-bottom: 1px solid aliceblue;
+    width: 90%;
+    margin-bottom: 3rem;
+    padding-bottom: 2rem;
 }
-
+.line{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2px;
+    width: 90% ;
+    padding: 0;
+    margin: 2rem 0;
+}
+.avg{
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+.avgPTitle{
+    font-size: 1.5rem;
+    color: lightblue;
+    line-height: 3rem;
+}
+.avgKm{
+    font-size: 2.5rem;
+    color: white;
+    line-height: 3rem;
+}

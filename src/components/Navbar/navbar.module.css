@@ -37,16 +37,16 @@
 .navegation{
     font-size: 1.5rem;
     color: rgba(255, 255, 255, 0.6);
+    background: transparent;
+    border: none;
 }
-/* .navegation::before {
-    display: block;
-    content: '';
-    width: 5rem;
-    background: #444;
-    height: 5px;
-    bottom: 0;
-    position: absolute;
-} */
+.navegationH{
+    font-size: 1.5rem;
+    color: rgba(255, 255, 255, 0.6);
+    background: transparent;
+    border: none;
+    text-decoration: 3px underline;
+}
 .link{
     text-decoration: none;
 }

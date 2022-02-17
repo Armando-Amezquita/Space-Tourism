@@ -1,9 +1,16 @@
 import React from "react";
+import { useState } from "react";
 import { Link } from "react-router-dom";
 import styles from './navbar.module.css';
 
 export default function Nav () {
+    const [navegation, setNavegation] = useState('home');
 
+    const handleChangeNavegation = (e) => {
+        e.preventDefault()
+        setNavegation(e.target.value)
+        console.log(e.target.value)
+    }
     return (
         <nav className={styles.nav_container}>
             <div className={styles.containerLeft}>
@@ -15,7 +22,7 @@ export default function Nav () {
                     <p className={styles.navegation}> <span className={styles.numberTitle}>00</span> Home </p>
                 </Link>
                 <Link to='/destination' className={styles.link} >
-                    <p className={styles.navegation}> <span className={styles.numberTitle}>01</span> Destionation </p>
+                    <p className={styles.navegation}> <span className={styles.numberTitle}>01</span> Destination </p>
                 </Link>
                 <Link to='/crew' className={styles.link}>
                     <p className={styles.navegation}> <span className={styles.numberTitle}>02</span> Crew </p>
@@ -27,3 +34,15 @@ export default function Nav () {
         </nav>
     )
 }
+
+
+/* 
+<button onClick={handleChangeNavegation} name='home' value='home'
+                    className={navegation === 'home'? styles.navegationH: styles.navegation}> 
+                    <span className={styles.numberTitle}>00</span> Home </button> 
+
+
+                                        <button onClick={handleChangeNavegation} name='destination' value='destination'
+                    className={navegation === 'destination'? styles.navegationH : styles.navegation}> 
+                    <span className={styles.numberTitle}>01</span> Destination </button>
+                    */
