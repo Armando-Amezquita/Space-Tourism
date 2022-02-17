@@ -2,6 +2,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    padding-bottom: 7rem;
     width: 100%;
     height: 100vh;
     padding-top: 15rem;
@@ -10,12 +12,18 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+.containerC{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+}
 
 .containerRigth{
     width: 50%;
     height: auto;
     display: flex;
-    justify-content: center;
     flex-direction: column; 
 }
 .titleCrew{
@@ -29,15 +37,45 @@
     color: grey;
     margin-right: 2rem;
 }
-.imageMars{
+.imageCommander{
     width: 40rem;
     height: 40rem;
     margin-top: 7rem;
     margin-left: 8rem;
-    background-image: url('../../images/Crew/image-anousheh-ansari.webp');
+    background-image: url('../../images/Crew/image-douglas-hurley.png');
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
+}
+.imageEngineer{
+    width: 40rem;
+    height: 40rem;
+    margin-top: 7rem;
+    margin-left: 8rem;
+    background-image: url('../../images/Crew/image-anousheh-ansari.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.imagePilot{
+    width: 40rem;
+    height: 40rem;
+    margin-top: 7rem;
+    margin-left: 8rem;
+    background-image: url('../../images/Crew/image-victor-glover.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.imageSpecial{
+    width: 40rem;
+    height: 40rem;
+    margin-top: 7rem;
+    margin-left: 8rem;
+    background-image: url('../../images/Crew/image-mark-shuttleworth.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 .containerLeft{
     width: 50%;
@@ -46,7 +84,7 @@
     align-items: flex-start;
     flex-direction: column; 
     padding-left: 15rem;
-    margin-bottom: 6rem;
+    padding-top: 7rem;
 }
 .title{
     font-size: 4rem;
@@ -91,19 +129,29 @@
 }
 .containerButtons{
     width: 100%;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
+    display: inline-block;
     margin-top: 3rem;
 }
 .buttons{
-    width: 1.5rem;
-    height: 1.5rem;
+    width: 1.9rem;
+    height: 1.9rem;
     border: none;
     border-radius: 50%;
     margin-right: 2rem;
-    margin-top: 2rem;
     background: transparent;
     box-shadow: 0 0 15px lightblue;
     cursor: pointer;
+    margin-bottom: 2rem;
+}
+.buttonsHover{
+    width: 1.9rem;
+    height: 1.9rem;
+    border: none;
+    border-radius: 50%;
+    margin-right: 2rem;
+    background: transparent;
+    box-shadow: 0 0 15px lightblue;
+    cursor: pointer;
+    margin-bottom: 2rem;
+    box-shadow: 0 0 15px rgb(3, 175, 233);
 }

@@ -1,6 +1,5 @@
 import React, {useState} from "react";
 import styles from './destination.module.css';
-import { Link } from 'react-router-dom'
 
 function Destination () {
     
