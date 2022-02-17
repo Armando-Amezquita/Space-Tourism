@@ -1,0 +1,93 @@
+.main_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    padding-top: 15rem;
+    background-image: url('../../images/Tecnology/background-technology-desktop.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.containerRigth{
+    width: 50%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column; 
+}
+.title{
+    font-size: 4rem;
+    font-weight: 350;
+    color: white;
+    margin-bottom: 1rem;
+}
+.titleTecnology{
+    font-size: 2rem;
+    font-weight: 100;
+    color: aliceblue;
+    margin-bottom: 8rem;
+    text-align: start;
+}
+.containerDescription{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.numberTitle{
+    color: grey;
+    margin-right: 2rem;
+}
+.imageMars{
+    width: 40rem;
+    height: 40rem;
+    margin-left: 8rem;
+    background-image: url('../../images/Tecnology/image-launch-vehicle-portrait.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 6rem;
+}
+.containerLeft{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; 
+    padding-left: 15rem;
+    margin-bottom: 6rem;
+}
+.titleSecond{
+    font-size: 1.3rem;
+    font-weight: 350;
+    color: lightblue;   
+}
+.description{
+    font-size: 1.5rem;
+    text-align: left;
+    color: lightblue;
+    line-height: 2.3rem;
+}
+.containerButtons{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 6rem;
+}
+.buttons{
+    width: 5rem;
+    height: 5rem;
+    border: none;
+    border-radius: 50%;
+    margin-right: 2rem;
+    margin-top: 3rem;
+    background: transparent;
+    box-shadow: 0 0 15px lightblue;
+    cursor: pointer;
+    color: aliceblue;
+    font-size: 1.5rem;
+}
