@@ -41,7 +41,27 @@
     color: grey;
     margin-right: 2rem;
 }
-.imageMars{
+.imageSpacePort{
+    width: 40rem;
+    height: 40rem;
+    margin-left: 8rem;
+    background-image: url('../../images/Tecnology/image-spaceport-portrait.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 6rem;
+}
+.imageCapsule{
+    width: 40rem;
+    height: 40rem;
+    margin-left: 8rem;
+    background-image: url('../../images/Tecnology/image-space-capsule-portrait.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 6rem;
+}
+.imageVehicle{
     width: 40rem;
     height: 40rem;
     margin-left: 8rem;
@@ -89,5 +109,18 @@
     box-shadow: 0 0 15px lightblue;
     cursor: pointer;
     color: aliceblue;
+    font-size: 1.5rem;
+}
+.buttonsHover{
+    width: 5rem;
+    height: 5rem;
+    border: none;
+    border-radius: 50%;
+    margin-right: 2rem;
+    margin-top: 3rem;
+    background: transparent;
+    box-shadow: 0 0 15px rgb(3, 175, 233);
+    cursor: pointer;
+    color: rgb(3, 175, 233);
     font-size: 1.5rem;
 }
