@@ -2,6 +2,7 @@ import { Routes, Route } from 'react-router-dom';
 import Nav from './components/Navbar/navbar.jsx';
 import Home from './views/Home/home.jsx';
 import Destination from './views/Destination/destination.jsx';
+import Crew from './views/Crew/crew.jsx';
 
 import './App.css';
 
@@ -14,6 +15,7 @@ function App() {
       <Routes >
         <Route exact path='/' element={<Home />} />
         <Route exact path='/destination' element={<Destination />} />
+        <Route exact path='/crew' element={<Crew />} />
       </Routes>
     </>
     </div>

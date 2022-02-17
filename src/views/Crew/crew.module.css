@@ -1,0 +1,109 @@
+.main_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    padding-top: 15rem;
+    background-image: url('../../images/Crew/background-crew-desktop.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.containerRigth{
+    width: 50%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column; 
+}
+.titleCrew{
+    font-size: 2rem;
+    font-weight: 100;
+    color: aliceblue;
+    margin-bottom: 8rem;
+    text-align: start;
+}
+.numberTitle{
+    color: grey;
+    margin-right: 2rem;
+}
+.imageMars{
+    width: 40rem;
+    height: 40rem;
+    margin-top: 7rem;
+    margin-left: 8rem;
+    background-image: url('../../images/Crew/image-anousheh-ansari.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.containerLeft{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column; 
+    padding-left: 15rem;
+    margin-bottom: 6rem;
+}
+.title{
+    font-size: 4rem;
+    font-weight: 350;
+    color: white;
+    margin-left: 1rem;
+    margin-bottom: 2.5rem;
+    margin-top: 2rem;
+}
+.titleSecond{
+    font-size: 3rem;
+    font-weight: 350;
+    color: lightblue;   
+}
+.principalParrafo{
+    font-size: 2rem;
+    color: lightblue;
+    margin: 0 1rem;
+}
+.principalParrafo:hover{
+    text-decoration: underline;
+}
+.principalParrafoS{
+    font-size: 2rem;
+    color: lightblue;
+}
+.principalParrafoM{
+    font-size: 2rem;
+    margin-left: 1rem;
+    color: lightblue;
+    text-decoration: underline;
+}
+.principalParrafoS:hover{
+    text-decoration: underline;
+}
+.description{
+    font-size: 1.5rem;
+    padding-right: 17rem;
+    text-align: left;
+    color: lightblue;
+    line-height: 3rem;
+}
+.containerButtons{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 3rem;
+}
+.buttons{
+    width: 1.5rem;
+    height: 1.5rem;
+    border: none;
+    border-radius: 50%;
+    margin-right: 2rem;
+    margin-top: 2rem;
+    background: transparent;
+    box-shadow: 0 0 15px lightblue;
+    cursor: pointer;
+}
