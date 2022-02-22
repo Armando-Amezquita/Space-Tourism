@@ -13,6 +13,7 @@ function Destination () {
     return (
         <>
             <main id='main' className={styles.main_container} >
+            {/* <img className={styles.estrella} src="https://img.freepik.com/vector-gratis/luz-dorada-estrella-png-luz-sol-resplandor-png-luz-destello-luz-calida-reflejos_279501-2075.jpg?size=338&ext=jpg" alt="Estrella" /> */}
                 <div className={styles.containerLeft}>
                     <h2 className={styles.titleMars}> 
                         <span className={styles.numberTitle}>01</span> PICK YOUR DESTINATION
